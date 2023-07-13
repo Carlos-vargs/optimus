@@ -1,0 +1,26 @@
+# Carpeta /target
+/target/
+
+# Archivo .classpath
+.classpath
+
+# Archivo .project
+.project
+
+# Carpeta /build
+/build/
+
+# Carpeta /nbproject/private
+/nbproject/private/
+
+# Carpeta /nbbuild
+/nbbuild/
+
+# Carpeta /dist
+/dist/
+
+# Carpeta /nbactions.xml
+/nbactions.xml
+
+# Carpeta /nb-configuration.xml
+/nb-configuration.xml
