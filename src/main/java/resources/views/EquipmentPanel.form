@@ -67,13 +67,13 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="TablePanel" pref="1247" max="32767" attributes="0"/>
+                              <Component id="TablePanel" pref="1239" max="32767" attributes="0"/>
                               <Group type="102" attributes="0">
-                                  <Component id="EquipmentCountPanel" pref="395" max="32767" attributes="0"/>
+                                  <Component id="EquipmentCountPanel" pref="393" max="32767" attributes="0"/>
                                   <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
-                                  <Component id="ComponentsCountPanel" pref="395" max="32767" attributes="0"/>
+                                  <Component id="ComponentsCountPanel" pref="393" max="32767" attributes="0"/>
                                   <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
-                                  <Component id="MaintenanceCountPanel" pref="397" max="32767" attributes="0"/>
+                                  <Component id="MaintenanceCountPanel" pref="393" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -162,7 +162,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="/home/carlosvargas/NetBeansProjects/OPTIMUS PRIME/OPTIMUS/src/main/java/resources/images/NewRegisterBtn.png"/>
+                  <Image iconType="3" name="/resources/images/NewRegisterBtn.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -188,7 +188,7 @@
             <Component class="javax.swing.JLabel" name="jLabelBtnDeleteRow">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="/home/carlosvargas/NetBeansProjects/OPTIMUS PRIME/OPTIMUS/src/main/java/resources/images/DeleteBtn.png"/>
+                  <Image iconType="3" name="/resources/images/DeleteBtn.png"/>
                 </Property>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Hand Cursor"/>
@@ -201,7 +201,7 @@
             <Component class="javax.swing.JLabel" name="jLabelBtnEdit">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="/home/carlosvargas/NetBeansProjects/OPTIMUS PRIME/OPTIMUS/src/main/java/resources/images/EditBtn.png"/>
+                  <Image iconType="3" name="/resources/images/EditBtn.png"/>
                 </Property>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Hand Cursor"/>
@@ -230,9 +230,9 @@
                       <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabelEquipmentCount" pref="234" max="32767" attributes="0"/>
+                          <Component id="jLabelEquipmentCount" max="32767" attributes="0"/>
                       </Group>
-                      <EmptySpace pref="131" max="32767" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -280,10 +280,10 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabelComponentsCount" pref="253" max="32767" attributes="0"/>
+                          <Component id="jLabelComponentsCount" max="32767" attributes="0"/>
                           <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace pref="112" max="32767" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -331,10 +331,10 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabelMaintenanceCount" pref="256" max="32767" attributes="0"/>
+                          <Component id="jLabelMaintenanceCount" max="32767" attributes="0"/>
                           <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace pref="112" max="32767" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -380,7 +380,7 @@
                       <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" attributes="0">
                           <Component id="jPanel3" max="32767" attributes="0"/>
-                          <Component id="jScrollTablePanel" pref="1202" max="32767" attributes="0"/>
+                          <Component id="jScrollTablePanel" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
                   </Group>

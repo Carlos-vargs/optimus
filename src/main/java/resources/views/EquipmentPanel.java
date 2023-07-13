@@ -118,7 +118,7 @@ public class EquipmentPanel extends javax.swing.JPanel {
         jlabelTitle1.setText("EQUIPOS");
 
         BtnNewRegister.setBackground(new java.awt.Color(255, 255, 255));
-        BtnNewRegister.setIcon(new javax.swing.ImageIcon("/home/carlosvargas/NetBeansProjects/OPTIMUS PRIME/OPTIMUS/src/main/java/resources/images/NewRegisterBtn.png")); // NOI18N
+        BtnNewRegister.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/NewRegisterBtn.png"))); // NOI18N
         BtnNewRegister.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 BtnNewRegisterMouseClicked(evt);
@@ -134,7 +134,7 @@ public class EquipmentPanel extends javax.swing.JPanel {
             }
         });
 
-        jLabelBtnDeleteRow.setIcon(new javax.swing.ImageIcon("/home/carlosvargas/NetBeansProjects/OPTIMUS PRIME/OPTIMUS/src/main/java/resources/images/DeleteBtn.png")); // NOI18N
+        jLabelBtnDeleteRow.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/DeleteBtn.png"))); // NOI18N
         jLabelBtnDeleteRow.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabelBtnDeleteRow.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -142,7 +142,7 @@ public class EquipmentPanel extends javax.swing.JPanel {
             }
         });
 
-        jLabelBtnEdit.setIcon(new javax.swing.ImageIcon("/home/carlosvargas/NetBeansProjects/OPTIMUS PRIME/OPTIMUS/src/main/java/resources/images/EditBtn.png")); // NOI18N
+        jLabelBtnEdit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/EditBtn.png"))); // NOI18N
         jLabelBtnEdit.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabelBtnEdit.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -198,8 +198,8 @@ public class EquipmentPanel extends javax.swing.JPanel {
                 .addGap(28, 28, 28)
                 .addGroup(EquipmentCountPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel1)
-                    .addComponent(jLabelEquipmentCount, javax.swing.GroupLayout.DEFAULT_SIZE, 234, Short.MAX_VALUE))
-                .addContainerGap(131, Short.MAX_VALUE))
+                    .addComponent(jLabelEquipmentCount, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         EquipmentCountPanelLayout.setVerticalGroup(
             EquipmentCountPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -226,9 +226,9 @@ public class EquipmentPanel extends javax.swing.JPanel {
             .addGroup(ComponentsCountPanelLayout.createSequentialGroup()
                 .addGap(28, 28, 28)
                 .addGroup(ComponentsCountPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabelComponentsCount, javax.swing.GroupLayout.DEFAULT_SIZE, 253, Short.MAX_VALUE)
+                    .addComponent(jLabelComponentsCount, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel2))
-                .addContainerGap(112, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         ComponentsCountPanelLayout.setVerticalGroup(
             ComponentsCountPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -255,9 +255,9 @@ public class EquipmentPanel extends javax.swing.JPanel {
             .addGroup(MaintenanceCountPanelLayout.createSequentialGroup()
                 .addGap(27, 27, 27)
                 .addGroup(MaintenanceCountPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabelMaintenanceCount, javax.swing.GroupLayout.DEFAULT_SIZE, 256, Short.MAX_VALUE)
+                    .addComponent(jLabelMaintenanceCount, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel3))
-                .addContainerGap(112, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         MaintenanceCountPanelLayout.setVerticalGroup(
             MaintenanceCountPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -474,7 +474,7 @@ public class EquipmentPanel extends javax.swing.JPanel {
                 .addGap(23, 23, 23)
                 .addGroup(TablePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jScrollTablePanel, javax.swing.GroupLayout.DEFAULT_SIZE, 1202, Short.MAX_VALUE))
+                    .addComponent(jScrollTablePanel))
                 .addGap(16, 16, 16))
         );
         TablePanelLayout.setVerticalGroup(
@@ -498,13 +498,13 @@ public class EquipmentPanel extends javax.swing.JPanel {
                     .addGroup(ContainerPanelLayout.createSequentialGroup()
                         .addGap(6, 6, 6)
                         .addGroup(ContainerPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(TablePanel, javax.swing.GroupLayout.DEFAULT_SIZE, 1241, Short.MAX_VALUE)
+                            .addComponent(TablePanel, javax.swing.GroupLayout.DEFAULT_SIZE, 1239, Short.MAX_VALUE)
                             .addGroup(ContainerPanelLayout.createSequentialGroup()
                                 .addComponent(EquipmentCountPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 393, Short.MAX_VALUE)
                                 .addGap(30, 30, 30)
                                 .addComponent(ComponentsCountPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 393, Short.MAX_VALUE)
                                 .addGap(30, 30, 30)
-                                .addComponent(MaintenanceCountPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 395, Short.MAX_VALUE)))))
+                                .addComponent(MaintenanceCountPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 393, Short.MAX_VALUE)))))
                 .addContainerGap())
         );
         ContainerPanelLayout.setVerticalGroup(
@@ -518,7 +518,7 @@ public class EquipmentPanel extends javax.swing.JPanel {
                     .addComponent(ComponentsCountPanel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(MaintenanceCountPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(TablePanel, javax.swing.GroupLayout.DEFAULT_SIZE, 478, Short.MAX_VALUE)
+                .addComponent(TablePanel, javax.swing.GroupLayout.DEFAULT_SIZE, 582, Short.MAX_VALUE)
                 .addContainerGap())
         );
 

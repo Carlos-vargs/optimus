@@ -81,7 +81,7 @@ public class CreateComponentPanel extends javax.swing.JPanel {
         jLabel7.setToolTipText("Agregar nuevo tipo de equipo");
         jLabel7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        jLabel8.setIcon(new javax.swing.ImageIcon("/home/carlosvargas/NetBeansProjects/OPTIMUS PRIME/OPTIMUS/src/main/java/resources/images/PlusBtn.png")); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/PlusBtn.png"))); // NOI18N
         jLabel8.setToolTipText("Agregar nueva Marca");
         jLabel8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
@@ -98,7 +98,7 @@ public class CreateComponentPanel extends javax.swing.JPanel {
 
         jLabel5.setText("Fecha de Aquisicion");
 
-        DeleteComponentBtn.setIcon(new javax.swing.ImageIcon("/home/carlosvargas/NetBeansProjects/OPTIMUS PRIME/OPTIMUS/src/main/java/resources/icons/TrashIcon.png")); // NOI18N
+        DeleteComponentBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/icons/TrashIcon.png"))); // NOI18N
         DeleteComponentBtn.setToolTipText("Eliminar");
         DeleteComponentBtn.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {

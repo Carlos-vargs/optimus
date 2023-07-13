@@ -84,7 +84,7 @@ public class HomePanel extends javax.swing.JPanel {
 
         NotificationsBtn.setBackground(new java.awt.Color(36, 104, 155));
         NotificationsBtn.setForeground(new java.awt.Color(49, 62, 74));
-        NotificationsBtn.setIcon(new javax.swing.ImageIcon("/home/carlosvargas/NetBeansProjects/OPTIMUS PRIME/OPTIMUS/src/main/java/resources/icons/NotificationIcon.png")); // NOI18N
+        NotificationsBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/icons/NotificationIcon.png"))); // NOI18N
         NotificationsBtn.setBadges(5);
         NotificationsBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

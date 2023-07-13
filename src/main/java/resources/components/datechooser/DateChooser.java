@@ -305,6 +305,7 @@ public final class DateChooser extends javax.swing.JPanel {
         header.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         cmdForward.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        cmdForward.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/icons/ForwardArrowIcon.png"))); // NOI18N
         cmdForward.setFocusable(true);
         cmdForward.setPaintBackground(false);
         cmdForward.addActionListener(new java.awt.event.ActionListener() {
@@ -350,6 +351,7 @@ public final class DateChooser extends javax.swing.JPanel {
         header.add(MY, new org.netbeans.lib.awtextra.AbsoluteConstraints(32, 6, 198, -1));
 
         cmdPrevious.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        cmdPrevious.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/icons/PreviousArrowIcon.png"))); // NOI18N
         cmdPrevious.setFocusable(true);
         cmdPrevious.setPaintBackground(false);
         cmdPrevious.addActionListener(new java.awt.event.ActionListener() {

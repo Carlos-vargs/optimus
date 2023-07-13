@@ -135,7 +135,7 @@ public class CreateEquipmentPanel extends javax.swing.JPanel {
 
         jLabel11.setText("Codigo de Inventario");
 
-        jLabel8.setIcon(new javax.swing.ImageIcon("/home/carlosvargas/NetBeansProjects/OPTIMUS PRIME/OPTIMUS/src/main/java/resources/images/PlusBtn.png")); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon("/home/carlosvargas/NetBeansProjects/optimus/src/main/java/resources/images/PlusBtn.png")); // NOI18N
         jLabel8.setToolTipText("Agregar nueva Marca");
         jLabel8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
@@ -143,18 +143,26 @@ public class CreateEquipmentPanel extends javax.swing.JPanel {
 
         jLabel6.setText("Ultimo Mantenimiento");
 
-        jLabel7.setIcon(new javax.swing.ImageIcon("/home/carlosvargas/NetBeansProjects/OPTIMUS PRIME/OPTIMUS/src/main/java/resources/images/PlusBtn.png")); // NOI18N
+        jLabel7.setIcon(new javax.swing.JLabel() {
+            public javax.swing.Icon getIcon() {
+                try {
+                    return new javax.swing.ImageIcon(
+                        new java.net.URL("file:/home/carlosvargas/NetBeansProjects/optimus/src/main/java/resources/images/PlusBtn.png")
+                    );
+                } catch (java.net.MalformedURLException e) {
+                }
+                return null;
+            }
+        }.getIcon());
         jLabel7.setToolTipText("Agregar nuevo tipo de equipo");
         jLabel7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         jLabel1.setText("Tipo de Equipo");
 
-        jDateAcquisitionEq.setBackground(new java.awt.Color(255, 255, 255));
         jDateAcquisitionEq.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.DateFormatter(new java.text.SimpleDateFormat("dd-MM-yyyy"))));
 
         jLabel5.setText("Fecha de Aquisicion");
 
-        jLabel9.setIcon(new javax.swing.ImageIcon("/home/carlosvargas/NetBeansProjects/OPTIMUS PRIME/OPTIMUS/src/main/java/resources/images/PlusBtn.png")); // NOI18N
         jLabel9.setToolTipText("Agregar nuevo estado");
         jLabel9.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
@@ -350,7 +358,6 @@ public class CreateEquipmentPanel extends javax.swing.JPanel {
 
         AddComponentBtn.setBackground(java.awt.Color.white);
         AddComponentBtn.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        AddComponentBtn.setIcon(new javax.swing.ImageIcon("/home/carlosvargas/NetBeansProjects/OPTIMUS PRIME/OPTIMUS/src/main/java/resources/images/AddComponentBtn.png")); // NOI18N
         AddComponentBtn.setNextFocusableComponent(AddComponentBtn);
         AddComponentBtn.setOpaque(true);
         AddComponentBtn.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -382,14 +389,14 @@ public class CreateEquipmentPanel extends javax.swing.JPanel {
                 .addGap(30, 30, 30))
         );
 
-        CancelBtn.setIcon(new javax.swing.ImageIcon("/home/carlosvargas/NetBeansProjects/OPTIMUS PRIME/OPTIMUS/src/main/java/resources/images/CancelBtn.png")); // NOI18N
+        CancelBtn.setIcon(new javax.swing.ImageIcon("/home/carlosvargas/NetBeansProjects/optimus/src/main/java/resources/images/CancelBtn.png")); // NOI18N
         CancelBtn.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 CancelBtnMouseClicked(evt);
             }
         });
 
-        jLabelBtnCreate.setIcon(new javax.swing.ImageIcon("/home/carlosvargas/NetBeansProjects/OPTIMUS PRIME/OPTIMUS/src/main/java/resources/images/CreateBtn.png")); // NOI18N
+        jLabelBtnCreate.setIcon(new javax.swing.ImageIcon("/home/carlosvargas/NetBeansProjects/optimus/src/main/java/resources/images/CreateBtn.png")); // NOI18N
         jLabelBtnCreate.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabelBtnCreate.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -438,8 +445,8 @@ public class CreateEquipmentPanel extends javax.swing.JPanel {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jlabelTitle1, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(ComponentsPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 293, Short.MAX_VALUE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 15, Short.MAX_VALUE)
+                .addComponent(ComponentsPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 299, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 9, Short.MAX_VALUE)
                 .addGroup(ContainerPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(CancelBtn, javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jLabelBtnCreate, javax.swing.GroupLayout.Alignment.TRAILING))

@@ -217,7 +217,7 @@ public class ReportsPanel extends javax.swing.JPanel {
                 .addGap(22, 22, 22))
         );
 
-        ExportExcel.setIcon(new javax.swing.ImageIcon("/home/carlosvargas/NetBeansProjects/OPTIMUS PRIME/OPTIMUS/src/main/java/resources/images/ExportExcelBtn.png")); // NOI18N
+        ExportExcel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/ExportExcelBtn.png"))); // NOI18N
         ExportExcel.setToolTipText("Exportar a EXCEL");
         ExportExcel.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         ExportExcel.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -226,7 +226,7 @@ public class ReportsPanel extends javax.swing.JPanel {
             }
         });
 
-        ExportPDF.setIcon(new javax.swing.ImageIcon("/home/carlosvargas/NetBeansProjects/OPTIMUS PRIME/OPTIMUS/src/main/java/resources/images/ExportPDFBtn.png")); // NOI18N
+        ExportPDF.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/ExportPDFBtn.png"))); // NOI18N
         ExportPDF.setToolTipText("Exportar a PDF");
         ExportPDF.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         ExportPDF.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -235,7 +235,7 @@ public class ReportsPanel extends javax.swing.JPanel {
             }
         });
 
-        ExportWord.setIcon(new javax.swing.ImageIcon("/home/carlosvargas/NetBeansProjects/OPTIMUS PRIME/OPTIMUS/src/main/java/resources/images/ExportWordBtn.png")); // NOI18N
+        ExportWord.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/ExportWordBtn.png"))); // NOI18N
         ExportWord.setToolTipText("Exportar a WORD");
         ExportWord.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         ExportWord.addMouseListener(new java.awt.event.MouseAdapter() {

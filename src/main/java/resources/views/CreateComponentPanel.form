@@ -168,7 +168,7 @@
     <Component class="javax.swing.JLabel" name="jLabel8">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="/home/carlosvargas/NetBeansProjects/OPTIMUS PRIME/OPTIMUS/src/main/java/resources/images/PlusBtn.png"/>
+          <Image iconType="3" name="/resources/images/PlusBtn.png"/>
         </Property>
         <Property name="toolTipText" type="java.lang.String" value="Agregar nueva Marca"/>
         <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
@@ -207,7 +207,7 @@
     <Component class="javax.swing.JLabel" name="DeleteComponentBtn">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="/home/carlosvargas/NetBeansProjects/OPTIMUS PRIME/OPTIMUS/src/main/java/resources/icons/TrashIcon.png"/>
+          <Image iconType="3" name="/resources/icons/TrashIcon.png"/>
         </Property>
         <Property name="toolTipText" type="java.lang.String" value="Eliminar"/>
       </Properties>
