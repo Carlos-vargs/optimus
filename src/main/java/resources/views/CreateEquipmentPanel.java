@@ -143,17 +143,7 @@ public class CreateEquipmentPanel extends javax.swing.JPanel {
 
         jLabel6.setText("Ultimo Mantenimiento");
 
-        jLabel7.setIcon(new javax.swing.JLabel() {
-            public javax.swing.Icon getIcon() {
-                try {
-                    return new javax.swing.ImageIcon(
-                        new java.net.URL("file:/home/carlosvargas/NetBeansProjects/optimus/src/main/java/resources/images/PlusBtn.png")
-                    );
-                } catch (java.net.MalformedURLException e) {
-                }
-                return null;
-            }
-        }.getIcon());
+        jLabel7.setIcon(new javax.swing.ImageIcon("/home/carlosvargas/NetBeansProjects/optimus/src/main/java/resources/images/PlusBtn.png")); // NOI18N
         jLabel7.setToolTipText("Agregar nuevo tipo de equipo");
         jLabel7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
@@ -222,11 +212,6 @@ public class CreateEquipmentPanel extends javax.swing.JPanel {
             .addGroup(EquipmentPanelLayout.createSequentialGroup()
                 .addGap(90, 90, 90)
                 .addGroup(EquipmentPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, EquipmentPanelLayout.createSequentialGroup()
-                        .addGroup(EquipmentPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabelErrorlastMaintenance, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(JlabelErrorInventoryCode, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addGap(189, 189, 189))
                     .addGroup(EquipmentPanelLayout.createSequentialGroup()
                         .addComponent(jDateLastMaintenance)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -237,7 +222,12 @@ public class CreateEquipmentPanel extends javax.swing.JPanel {
                             .addComponent(jLabel11)
                             .addComponent(jLabel6)
                             .addComponent(jTextFieldInvCode, javax.swing.GroupLayout.DEFAULT_SIZE, 269, Short.MAX_VALUE))
-                        .addGap(64, 64, 64)))
+                        .addGap(64, 64, 64))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, EquipmentPanelLayout.createSequentialGroup()
+                        .addGroup(EquipmentPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jLabelErrorlastMaintenance, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(JlabelErrorInventoryCode, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
                 .addGroup(EquipmentPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(EquipmentPanelLayout.createSequentialGroup()
                         .addGroup(EquipmentPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -358,6 +348,7 @@ public class CreateEquipmentPanel extends javax.swing.JPanel {
 
         AddComponentBtn.setBackground(java.awt.Color.white);
         AddComponentBtn.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        AddComponentBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/AddComponentBtn.png"))); // NOI18N
         AddComponentBtn.setNextFocusableComponent(AddComponentBtn);
         AddComponentBtn.setOpaque(true);
         AddComponentBtn.addMouseListener(new java.awt.event.MouseAdapter() {
