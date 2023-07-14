@@ -41,6 +41,10 @@ java -jar target/optimus-1.0-SNAPSHOT.jar
 
 Una vez que Optimus está en ejecución, puedes utilizarlo para optimizar tus procesos. Asegúrate de seguir las instrucciones específicas proporcionadas en la documentación del proyecto.
 
+## Documentación
+
+Puedes encontrar la documentación del proyecto [aquí](https://drive.google.com/drive/folders/1OFQXhZCrj5xt1UMmQMYefhtg_v6KyKpW?usp=sharing).
+
 ## Contribución
 
 Si deseas contribuir al proyecto Optimus, puedes seguir estos pasos:
