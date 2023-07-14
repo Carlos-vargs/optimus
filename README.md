@@ -80,10 +80,10 @@ Si encuentras algún problema o tienes alguna pregunta sobre el uso de Optimus, 
 
 Aquí puedes ver una vista previa del proyecto:
 <p align="center">
-  <img src="https://github.com/Carlos-vargs/optimus/blob/main/src/main/java/resources/images/home-optimus.png" alt="optimus home view" width="500" />
-  <img src="https://github.com/Carlos-vargs/optimus/blob/main/src/main/java/resources/images/equipment-optimus.png" alt="optimus equipment view" width="500" />
-  <img src="https://github.com/Carlos-vargs/optimus/blob/main/src/main/java/resources/images/schedule-optimus.png" alt="optimus schedule view" width="500" />
-  <img src="https://github.com/Carlos-vargs/optimus/blob/main/src/main/java/resources/images/reports-optimus.png" alt="optimus reports view" width="500" />
+  <img src="https://github.com/Carlos-vargs/optimus/blob/main/src/main/java/resources/images/home-optimus.png" alt="optimus home view" width="400" />
+  <img src="https://github.com/Carlos-vargs/optimus/blob/main/src/main/java/resources/images/equipment-optimus.png" alt="optimus equipment view" width="400" />
+  <img src="https://github.com/Carlos-vargs/optimus/blob/main/src/main/java/resources/images/schedule-optimus.png" alt="optimus schedule view" width="400" />
+  <img src="https://github.com/Carlos-vargs/optimus/blob/main/src/main/java/resources/images/reports-optimus.png" alt="optimus reports view" width="400" />
 </p>
 
 ---
