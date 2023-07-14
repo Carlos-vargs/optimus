@@ -76,8 +76,17 @@ git push origin nueva-caracteristica
 
 Si encuentras algún problema o tienes alguna pregunta sobre el uso de Optimus, puedes crear un issue en el repositorio de GitHub o contactarnos a través de [nuestra página web](https://carlosvargas.vercel.app/).
 
----
+## Preview del Proyecto
 
+Aquí puedes ver una vista previa del proyecto:
+<p align="center">
+  <img src="https://github.com/Carlos-vargs/optimus/blob/main/src/main/java/resources/images/home-optimus.png" alt="optimus home view" width="500" />
+  <img src="https://github.com/Carlos-vargs/optimus/blob/main/src/main/java/resources/images/equipment-optimus.png" alt="optimus equipment view" width="500" />
+  <img src="https://github.com/Carlos-vargs/optimus/blob/main/src/main/java/resources/images/schedule-optimus.png" alt="optimus schedule view" width="500" />
+  <img src="https://github.com/Carlos-vargs/optimus/blob/main/src/main/java/resources/images/reports-optimus.png" alt="optimus reports view" width="500" />
+</p>
+
+---
 ¡Gracias por tu interés en Optimus! Esperamos que esta aplicación te ayude a mejorar la eficiencia de tus procesos. Si tienes alguna pregunta adicional, no dudes en contactarnos.
 
 
