@@ -1,6 +1,6 @@
 # Optimus
 
-Optimus es un proyecto desarrollado en Java utilizando el framework Maven. Es una aplicación diseñada para optimizar y mejorar la eficiencia de procesos específicos en el laboratorio de Microsoft UNAN-Managua..
+Optimus es un proyecto desarrollado en Java utilizando el framework Maven. Es una aplicación diseñada para optimizar y mejorar la eficiencia de procesos específicos en el laboratorio de Microsoft UNAN-Managua.
 
 ## Características principales
 
